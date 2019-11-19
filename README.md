@@ -9,12 +9,15 @@ John Bryce Final Coupon system project parts 1,2,3 + Coupons digital online libr
 טוב אז אני יודע שאף אחד עוד לא הגיע לחלק של הטסטים של הפוסט ונתקלתי בבעיה בפוסט שכל עוד אתם עושים את הטסטים שלכם דרך האנגולר והטומקאט אז יווצר בעייה של
 cors
 מכיוון שcors
-מאפשר רק קריאות פשוטות שהן get, post
-אבל הוא מאפשר פוסט רק אם הcontent type
+מאפשר רק קריאות פשוטות שהן 
+get, post
+אבל הוא מאפשר פוסט רק אם ה
+content type
 שלו הוא
 application/x-www-form-urlencoded, multipart/form-data, or text/plain
 כאשר מנסים לקרוא ל
-json (שהוא לא חלק מהcontent type שהוא מקבל בפוסט ישר)
+json
+ (שהוא לא חלק מהcontent type שהוא מקבל בפוסט ישר)
 
 אז הוא קורא למטאודה options שבודקת ומחליטה אם הrequest בטוחה כדי לשלוח אותה
 
